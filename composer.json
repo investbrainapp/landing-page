@@ -1,0 +1,21 @@
+{
+    "name": "investbrainapp/landing-page",
+    "description": "Basic single-page landing page for Investbrain",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Investbrain\\LandingPage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Investbrain\\LandingPage\\LandingPageServiceProvider"
+            ]
+        }
+    }
+}
