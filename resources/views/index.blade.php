@@ -3,9 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ asset('favicon.svg') }}">
 
     <title>Investbrain » Open source AI-powered investment portfolio tracker</title>
+    <meta name="description" content="The smartest open source AI-powered investment portfolio tracker">
+
+    <meta property="og:url" content="https://investbra.in">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Investbrain">
+    <meta property="og:description" content="The smartest open source AI-powered investment portfolio tracker">
+    <meta property="og:image" content="{{ asset('og.png') }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="investbra.in">
+    <meta property="twitter:url" content="https://investbra.in">
+    <meta name="twitter:title" content="Investbrain">
+    <meta name="twitter:description" content="The smartest open source AI-powered investment portfolio tracker">
+    <meta name="twitter:image" content="{{ asset('og.png') }}">
+
+    <link rel="icon" href="{{ asset('favicon.svg') }}">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
