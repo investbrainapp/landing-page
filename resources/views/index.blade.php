@@ -22,6 +22,7 @@
 
     <link rel="icon" href="{{ asset('favicon.svg') }}">
 
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -119,7 +120,7 @@
                             Chat with your investments 
                         </h1>
                         <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                            Investbrain offers casual investors the ability to make better informed decisions using AI-powered "chat with your holdings" feature grounded on your holdings
+                            Investbrain offers casual investors the ability to make more informed decisions using the AI-powered "chat with your holdings" feature grounded on your holdings
                         </p>
                     </div>
                     <div class="space-x-4">
@@ -130,6 +131,9 @@
                         <a href="#key-features" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 py-2 px-4">
                             Learn More
                         </a>
+                    </div>
+                    <div class="space-y-2">
+                        <a class="github-button" href="https://github.com/investbrainapp/investbrain" data-size="large" data-show-count="true" aria-label="Star investbrainapp/investbrain on GitHub">Star</a>
                     </div>
                 </div>
             </div>
