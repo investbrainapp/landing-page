@@ -99,7 +99,7 @@
         <div class="flex items-center justify-center">
             <a href="{{ config('app.url') }}">
                 <div class="w-8 mr-3" title="Investbrain logo">
-                    <x-glyph-only-logo />
+                    <x-ui.logo />
                 </div>
             </a>
             <a href="{{ config('app.url') }}"><span class="font-bold">Investbrain</span></a>
